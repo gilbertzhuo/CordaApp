@@ -16,16 +16,6 @@ function HeroSection() {
                 repeat={Infinity}
                 />
                 <p>{data.Section.description}</p>
-                <div style={{position: "absolute", bottom: "0px", height:"10vh", left :"5vh"}}>
-                    <TypeAnimation
-                    cursor={true}
-                    sequence={
-                        [
-                        'CREATED BY Gilbert Zhuo, Raymond Limin, Deepak Vishwakarma', 10000]}
-                    wrapper="p"
-                    repeat={Infinity}
-                    />
-                </div>
             </ContainerInfo>
         
         </Container>
