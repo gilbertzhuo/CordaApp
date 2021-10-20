@@ -46,6 +46,7 @@ const WalletSection = () => {
                             }}/>
                             <WalletSectionButton onClick={()=>{
                                 axios.get(`https://81upvs6ktl.execute-api.ap-southeast-1.amazonaws.com/Corda/issue?customer=Kiron&&point=${num}`);
+                                window.location.reload();
                             }}>TOPUP</WalletSectionButton>
                         </WalletSectionCard>
                     )
