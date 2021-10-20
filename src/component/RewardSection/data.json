@@ -1,0 +1,15 @@
+{
+    "Reward": [{
+        "title": "DBS5",
+        "price": "50",
+        "description": "Helen and Ivan had the same number of coins. Helen had a number of 50-cent coins, and 64 20-cent coins. These coins had a mass of 1.134kg. Ivan had a number of 50-cent coins and 104 20-cent coins."
+    }, {
+        "title": "DBS10",
+        "price": "100",
+        "description": "Helen and Ivan had the same number of coins. Helen had a number of 50-cent coins, and 64 20-cent coins. These coins had a mass of 1.134kg. Ivan had a number of 50-cent coins and 104 20-cent coins."
+    }, {
+        "title": "DBS20",
+        "price": "200",
+        "description": "Helen and Ivan had the same number of coins. Helen had a number of 50-cent coins, and 64 20-cent coins. These coins had a mass of 1.134kg. Ivan had a number of 50-cent coins and 104 20-cent coins."
+    }]
+}
