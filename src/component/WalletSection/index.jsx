@@ -45,7 +45,7 @@ const WalletSection = () => {
                                 setNum(parseInt(e.target.value));
                             }}/>
                             <WalletSectionButton onClick={()=>{
-                                axios.get(`https://81upvs6ktl.execute-api.ap-southeast-1.amazonaws.com/Corda/getRewardState/issue?customer=Kiron&&point=${num}`);
+                                axios.get(`https://81upvs6ktl.execute-api.ap-southeast-1.amazonaws.com/Corda/issue?customer=Kiron&&point=${num}`);
                             }}>TOPUP</WalletSectionButton>
                         </WalletSectionCard>
                     )
