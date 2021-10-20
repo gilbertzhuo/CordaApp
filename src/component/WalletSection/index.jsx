@@ -12,7 +12,7 @@ const WalletSection = () => {
         getHistory();
     },[])
     async function getHistory() {
-        await axios.get("http://18.140.71.165:9090/getRedemptionState").then(request=>{
+        await axios.get("https://81upvs6ktl.execute-api.ap-southeast-1.amazonaws.com/Corda/getRedemptionState").then(request=>{
             setHistory(request.data.filter(item=>item.customer==="Kiron"));
         })
     }
@@ -45,7 +45,7 @@ const WalletSection = () => {
                                 setNum(parseInt(e.target.value));
                             }}/>
                             <WalletSectionButton onClick={()=>{
-                                axios.get(`http://18.140.71.165:9090/issue?customer=Kiron&&point=${num}`);
+                                axios.get(`https://81upvs6ktl.execute-api.ap-southeast-1.amazonaws.com/Corda/getRewardState/issue?customer=Kiron&&point=${num}`);
                             }}>TOPUP</WalletSectionButton>
                         </WalletSectionCard>
                     )

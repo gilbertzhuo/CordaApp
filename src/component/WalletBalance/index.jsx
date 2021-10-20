@@ -8,7 +8,7 @@ const WalletBalance = () => {
         list();
     },[])
     async function list(){
-        await axios.get("http://18.140.71.165:9090/getRewardState").then(
+        await axios.get("https://81upvs6ktl.execute-api.ap-southeast-1.amazonaws.com/Corda/getRewardState").then(
             request=>{
                 setPoints((request.data.filter(item=>item.customer===user).reduce((acc, curr) => {
                     return acc = acc + parseInt(curr.point)

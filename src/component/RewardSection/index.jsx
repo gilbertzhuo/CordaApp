@@ -6,7 +6,7 @@ import axios from "axios";
 
 const RewardSection = () => {
     function redeemReward(customer, voucher, point) {
-        axios.get(`http://18.140.71.165:9090/redeem?voucher=${voucher}&&customer=${customer}&&point=${point}`)
+        axios.get(`https://81upvs6ktl.execute-api.ap-southeast-1.amazonaws.com/Corda/redeem?voucher=${voucher}&&customer=${customer}&&point=${point}`)
         window.location.reload();
         alert("Successfully redeemed reward");
     }
